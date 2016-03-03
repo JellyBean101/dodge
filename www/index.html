@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Doge</title>
+  </head>
+  <body>
+    <script src="js/phaser.js"></script>
+    <script src="js/play.js"></script>
+    <script>
+      var game = new Phaser.Game(320,516);
+      game.state.add('play', DogeIsAwesome.Play);
+      game.state.start('play');
+      console.log("The doge of awesomeness is too fat to get here right away. Loading...")
+    </script>
+  </body>
+</html>
