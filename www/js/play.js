@@ -17,7 +17,7 @@ DogeIsAwesome.Play.prototype = {
   },
 
   create: function () {
-    this.background = this.add.titleSprite(0,0,320,568,'background');
+    this.background = this.add.tileSprite(0,0,320,568,'background');
     this.background.autoScroll(0,5);
     this.background.scale.set(1);
   },
