@@ -24,8 +24,8 @@ DogeIsAwesome.Play.prototype = {
     this.background.animations.add('blink');
     this.background.animations.play('blink',2,true);
     //Dodger
-    this.dodger.smoothed = false;
     this.dodger = this.add.sprite(160,60,'dodger');
+    this.dodger.smoothed = false;
     this.dodger.anchor.set(0.5,0.5);
   },
 
