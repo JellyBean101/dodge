@@ -14,7 +14,7 @@ DogeIsAwesome.Play.prototype = {
 
   preload: function () {
     this.load.image('background','assets/Doge BG.png');
-    this.load.spritesheet('dodger','assets/Dodger.png',38,67,1);
+    this.load.spritesheet('dodger','assets/Dodger.png',320,568,1);
   },
 
   create: function () {
