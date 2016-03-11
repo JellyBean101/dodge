@@ -13,7 +13,7 @@ DogeIsAwesome.Play.prototype = {
   },
 
   preload: function () {
-    this.load.image('background','assests/background.png');
+    this.load.image('background','assets/Doge.BG.png');
   },
 
   create: function () {
